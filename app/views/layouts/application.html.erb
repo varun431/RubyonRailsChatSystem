@@ -24,6 +24,12 @@
 
 	<div class="container">
 	  <!-- flash messages here -->
+    <% if notice %>
+      <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
 	  <%= yield %>
 	</div>
 	<audio id="chatAudio"><source src="/sounds/notification.mp3" type="audio/mpeg"></audio>

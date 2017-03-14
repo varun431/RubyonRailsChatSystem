@@ -54,3 +54,6 @@ gem 'devise'
 
 gem 'private_pub'
 gem 'thin'
+
+# gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
+gem 'bcrypt', '~> 3.1.7'
